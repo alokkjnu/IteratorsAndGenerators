@@ -18,8 +18,4 @@ class countdown:
             yield n
             n -= 1
 
-    def __reversed__(self):
-        n = 1
-        while n <=self.start:
-            yield n
-            n +=1
+    
