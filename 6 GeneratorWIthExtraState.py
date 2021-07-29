@@ -11,7 +11,9 @@ class linehistory:
             self.history.append((lineno,line))
             yield line
 
-    
+    def clear(self):
+        self.history.clear()
+
 
 with open('msg.txt') as f:
     lines = linehistory(f)
