@@ -15,4 +15,9 @@ with open('msg.txt') as f:
             break
         print(line,end='')
 
-
+items = [1,2,3,4]
+it = iter(items)
+print(next(it))
+print(next(it))
+print(next(it))
+print(next(it))
